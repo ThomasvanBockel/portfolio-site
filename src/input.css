@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body nav a {
+    @apply text-white;
+}
+
+/* Make the active link red */
+body:has(#skills:target) nav a[href="#skills"] {
+    @apply text-red-500;
+}
+
+body:has(#about-me:target) nav a[href="#about-me"] {
+    @apply text-red-500;
+}
+
+body:has(#projects:target) nav a[href="#projects"] {
+    @apply text-red-500;
+}
+
