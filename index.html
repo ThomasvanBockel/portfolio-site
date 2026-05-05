@@ -15,9 +15,9 @@
         </a>
     </div>
     <div class=" ml-auto flex gap-6 pr-5 ">
+        <a href="#about-me" class="  bg-gray-700 px-16 py-4 lg:px-4 lg:py-0">Over mij</a>
         <a href="#skills" class="  bg-gray-700 px-16 py-4 lg:px-4 lg:py-0">Vaardigheden</a>
         <a href="#projects" class=" bg-gray-700 px-16 py-4 lg:px-4 lg:py-0">Projects</a>
-        <a href="#about-me" class="  bg-gray-700 px-16 py-4 lg:px-4 lg:py-0">About Me</a>
     </div>
 
 </nav>
@@ -28,7 +28,7 @@
 </header>
 <main class="w-3/4 flex justify-self-center flex-col">
     <section id="about-me" class="mb-10 ">
-        <h2 class="lg:text-2xl text-center my-5  text-blue-900 text-6xl">About Me</h2>
+        <h2 class="lg:text-2xl text-center my-5  text-blue-900 text-6xl">Over mij</h2>
         <div class="flex justify-center border-2 border-black rounded-md lg:flex-row flex-col">
             <div class="   lg: rounded-md p-2 flex-col ">
                 <p class=" lg:text-xl text-4xl">Hallo, ik ben Thomas van Bockel, 20 jaar oud en CMGT-student aan de
@@ -114,32 +114,70 @@
                     een website maken van
                     0 naar 100, ik heb dit vaak gedaan in team verband waardoor ik goed kan samenwerken met
                     collega's</p>
+                <div class="flex flex-row self-start gap-10">
+                    <div class="justify-items-center shadow-xl">
+                        <p>Figma</p>
+                        <img class="max-h-20 " src="./img/figma.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <section id="projects" class="my-10">
         <h2 class=" text-center my-5 text-blue-900 text-6xl justify-self-center lg:text-2xl">Projecten</h2>
         <div class="lg:grid grid-flow-row grid-cols-3 gap-2 flex flex-col">
-            <a href="https://github.com/HiddeBouwman/TLE2" target="_blank"
-               class=" border-2 border-black lg: rounded-md p-2  mt-5 ">
+            <div class=" border-2 border-black lg:rounded-md p-2   mt-5  flex flex-col  ">
+
                 <h3 class="lg:text-xl text-4xl font-bold">Opdracht Natuur Monumenten: Ecoreeks </h3>
+                <img src="./img/ecoreeks.png" alt="">
                 <p class=" lg:text-xl text-4xl">Team opdracht: Ecoreeks. Dit is een project voor de opdrachtgever
-                    natuurmonumenten. EcoReeks is een reeks om jongeren meer intresse te geven in natuurmonumenten en de
+                    natuurmonumenten. EcoReeks is een reeks om jongeren meer intresse te geven in natuurmonumenten
+                    en de
                     natuur</p>
-            </a>
-            <a href="https://github.com/ThomasvanBockel/prg06-frontend" target="_blank"
-               class=" border-2 border-black lg: rounded-md p-2  mt-5 ">
-                <h3 class=" lg:text-xl  text-4xl font-bold">Eindopdracht front-end</h3>
-                <p class="lg:text-xl  text-4xl">Website front-end, gemaakt met react, dit is een website wat ik heb
-                    gemaakt voor programmeren, ik heb dit gemaakt over planten
-                    6. </p>
-            </a>
-            <a href="https://github.com/ThomasvanBockel/prg06-backend" target="_blank"
-               class=" border-2 border-black lg:rounded-md p-2   mt-5 ">
+                <div class="self-end  mt-auto flex justify-end gap-2">
+                    <a href="https://github.com/HiddeBouwman/TLE2" target="_blank"
+                       class=" inline-block border-2 border-black  text-white bg-gray-600
+               transform transition-transform duration-200
+           hover:scale-110">Github</a>
+                    <a href="https://cmgt.hr.nl/projecten/ecoreeks" target="_blank"
+                       class="inline-block border-2 border-black  text-white bg-red-600   transform transition-transform duration-200
+           hover:scale-110">Showcase</a>
+                </div>
+
+            </div>
+            <div class=" border-2 border-black lg:rounded-md p-2   mt-5  flex flex-col ">
+                <div>
+                    <h3 class=" lg:text-xl  text-4xl font-bold">Eindopdracht front-end</h3>
+                    <img src="./img/frontend.png" alt="" class="w-full h-3/4">
+                    <p class="lg:text-xl  text-4xl">Website front-end, gemaakt met react, dit is een website wat ik heb
+                        gemaakt voor programmeren, ik heb dit gemaakt over planten
+                        6. </p>
+                </div>
+                <div class="self-end  mt-auto flex justify-end gap-2">
+                    <a href="https://github.com/ThomasvanBockel/prg06-frontend" target="_blank"
+                       class=" inline-block border-2 border-black  text-white bg-gray-600
+               transform transition-transform duration-200
+           hover:scale-110">Github</a>
+
+                </div>
+            </div>
+            <div class=" border-2 border-black lg:rounded-md p-2   mt-5 flex flex-col ">
+
                 <h3 class="lg:text-xl text-4xl font-bold">Eindopdracht back-end</h3>
-                <p class="lg:text-xl  text-4xl">Back-end webservice, gemaakt voor de cursus programmeren 6, dit is een
+                <img src="./img/backend.png" alt="">
+                <p class="lg:text-xl  text-4xl">Back-end webservice, gemaakt voor de cursus programmeren 6, dit is
+                    een
                     webservice van planten, dit is gemaakt met express.js, </p>
-            </a>
+
+                <div class="self-end  mt-auto flex justify-end gap-2">
+
+                    <a href="https://github.com/ThomasvanBockel/prg06-backend" target="_blank"
+                       class=" inline-block border-2 border-black  text-white bg-gray-600
+               transform transition-transform duration-200
+           hover:scale-110">Github</a>
+
+                </div>
+            </div>
         </div>
     </section>
 </main>

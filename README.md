@@ -6,6 +6,7 @@ This is the porfolio site for Thomas van Bockel, a full-stack developer.
 
 - [x] make a logo
 - [x] add skill pictures
-- [ ] add pictures to projects
+- [x] add pictures to projects
 - [ ] make more text for the paragraphs
-- [ ] make it mobile compatible 
+- [ ] make it mobile compatible
+- [ ] information page for projects
