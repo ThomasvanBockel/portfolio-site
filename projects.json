@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "name": "Natuur Monumenten: EcoReeks",
+      "description": "Dit was een opdracht voor Natuur Monumenten, we moesten een website maken waar we jongeren geintereseerd maakte voor het natuur en voor Natuur Monumenten. ",
+      "contribution": "Ik heb hier gewerkt aan de code voor de hoofd pagina. Ook heb ik meegewerkt aan het design van het project. Ik heb de hoofdpagina gedesignd.",
+      "images": {
+        "header": {
+          "src": "./img/ecoreeks.png",
+          "alt": ""
+        }
+      },
+      "id": 0
+    },
+    {
+      "name": "Programmeren 6 Front-end",
+      "description": "Website front-end, gemaakt met react, dit is een website wat ik heb gemaakt voor programmeren 6, ik heb dit gemaakt over planten.",
+      "contribution": "Ik heb alle code geschreven voor dit project, ik heb ook de design van de website gemaakt voor dit project.",
+      "images": {
+        "header": {
+          "src": "./img/frontend.png",
+          "alt": ""
+        }
+      },
+      "id": 1
+    },
+    {
+      "name": "Programmeren 6 Back-end",
+      "description": "Back-end webservice, gemaakt voor de cursus programmeren 6, dit is een webservice van planten, dit is gemaakt met express.js.",
+      "contribution": "Ik heb alle code geschreven voor dit project, ik heb ook het idee voor dit project zelf bedacht.",
+      "images": {
+        "header": {
+          "src": "./img/backend.png",
+          "alt": ""
+        }
+      },
+      "id": 2
+    }
+  ]
+}

@@ -2,10 +2,13 @@
 module.exports = {
     content: [
         "./index.html",
-        "./src/**/*.{html,js}"
+        "./details.php",
+        "./src/**/*.{html,js,php}",
+        "./**/*.php"
     ],
     theme: {
         extend: {},
     },
     plugins: [],
 }
+
