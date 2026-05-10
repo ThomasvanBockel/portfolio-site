@@ -2,36 +2,36 @@
   "projects": [
     {
       "name": "Natuur Monumenten: EcoReeks",
-      "description": "Dit was een opdracht voor Natuur Monumenten, we moesten een website maken waar we jongeren geintereseerd maakte voor het natuur en voor Natuur Monumenten. ",
-      "contribution": "Ik heb hier gewerkt aan de code voor de hoofd pagina. Ook heb ik meegewerkt aan het design van het project. Ik heb de hoofdpagina gedesignd.",
+      "description": "Dit was een opdracht voor Natuur Monumenten, we moesten een website maken waar we jongeren geintereseerd maken over het natuur en over Natuur Monumenten. ",
+      "contribution": "Ik heb hier gewerkt aan de code voor de hoofd pagina. Ook heb ik meegewerkt aan het design van het project. Ik heb de hoofdpagina gedesignd. Ik heb hiervoor Laravel en JavaScript gebruikt.",
       "images": {
         "header": {
           "src": "./img/ecoreeks.png",
-          "alt": ""
+          "alt": "image homepage EcoReeks"
         }
       },
       "id": 0
     },
     {
       "name": "Programmeren 6 Front-end",
-      "description": "Website front-end, gemaakt met react, dit is een website wat ik heb gemaakt voor programmeren 6, ik heb dit gemaakt over planten.",
-      "contribution": "Ik heb alle code geschreven voor dit project, ik heb ook de design van de website gemaakt voor dit project.",
+      "description": "Website front-end, gemaakt met react, dit is een website wat ik heb gemaakt voor programmeren 6, ik heb dit gemaakt over planten. Dit was een lear project, Dit heb ik gebruikt om erachter te komen hoe ik react kon gebruiken en te leren hoe ik een react website maakt. ",
+      "contribution": "Ik heb alle code geschreven voor dit project, ik heb ook de design van de website gemaakt voor dit project. Ik heb dit gemaakt met React. De styling heb ik gedaan met tailwind. ",
       "images": {
         "header": {
           "src": "./img/frontend.png",
-          "alt": ""
+          "alt": "Image front-end website"
         }
       },
       "id": 1
     },
     {
       "name": "Programmeren 6 Back-end",
-      "description": "Back-end webservice, gemaakt voor de cursus programmeren 6, dit is een webservice van planten, dit is gemaakt met express.js.",
-      "contribution": "Ik heb alle code geschreven voor dit project, ik heb ook het idee voor dit project zelf bedacht.",
+      "description": "Back-end webservice, gemaakt voor de cursus programmeren 6, dit is een webservice van planten, dit is gemaakt met Express.js. Ik heb geleerd hoe ik een backend systeem maak in Express, hierbij heb ik Postman gebruikt om te zien dat alles goed werkte.",
+      "contribution": "Ik heb alle code geschreven voor dit project, ik heb ook het idee voor dit project zelf bedacht. Ik heb Express gebruikt om dit project te maken. ",
       "images": {
         "header": {
           "src": "./img/backend.png",
-          "alt": ""
+          "alt": "Image JSON in postman"
         }
       },
       "id": 2
