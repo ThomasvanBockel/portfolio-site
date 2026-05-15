@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-orange-50 ">
 
@@ -15,29 +16,35 @@
         </a>
     </div>
     <div class=" ml-auto flex gap-6 pr-5 ">
-        <a href="#about-me" class="  bg-gray-700 px-16 py-4 lg:px-4 lg:py-0">Over mij</a>
-        <a href="#skills" class="  bg-gray-700 px-16 py-4 lg:px-4 lg:py-0">Vaardigheden</a>
-        <a href="#projects" class=" bg-gray-700 px-16 py-4 lg:px-4 lg:py-0">Projects</a>
+        <a href="#about-me"
+           class="  border-white border-2 px-16 py-4 lg:px-4 lg:py-0 hover:scale-110  transform transition-transform duration-200">Over
+            mij</a>
+        <a href="#skills"
+           class="  border-white border-2 px-16 py-4 lg:px-4 lg:py-0 hover:scale-110  transform transition-transform duration-200">Vaardigheden</a>
+        <a href="#projects"
+           class=" border-white border-2 px-16 py-4 lg:px-4 lg:py-0 hover:scale-110  transform transition-transform duration-200">Projects</a>
     </div>
 
 </nav>
-<header class="bg-green-700 lg:p-10 p-32  ">
+<header class="bg-gradient-to-r from-[#00912C] to-[#95E000] lg:p-10 p-32  ">
 
     <h1 class="text-white text-8xl justify-center lg:text-6xl w-3/4 flex justify-self-center lg:justify-normal">
         Portfolio - Thomas van Bockel</h1>
 </header>
 <main class="w-3/4 flex justify-self-center flex-col">
-    <section id="about-me" class="mb-10 ">
-        <h2 class="lg:text-2xl text-center my-5  text-blue-900 text-6xl">Over mij</h2>
-        <div class="flex justify-center shadow-xl  rounded-md lg:flex-row flex-col">
-            <div class="   lg: rounded-md p-2 flex-col ">
-                <p class=" lg:text-xl text-4xl">Hallo, ik ben Thomas van Bockel, 20 jaar oud en CMGT-student aan de
+    <section id="about-me" class="mb-10 p-4">
+        <h2 class=" font-handwriting lg:text-2xl text-center my-5  text-blue-900 text-6xl">Over mij</h2>
+        <div class="flex justify-center shadow-xl  rounded-md lg:flex-row flex-col ">
+            <div class="   lg: rounded-md p-6 flex-col">
+                <p class=" lg:text-xl text-4xl pb-5">Hallo, ik ben Thomas van Bockel, 20 jaar oud en CMGT-student aan
+                    de
                     Hogeschool Rotterdam. Ik ben een programmeur die zowel front-end als back-end applicaties
                     ontwikkelt. Ik heb meerdere schoolprojecten gemaakt, die allemaal te vinden zijn op mijn
-                    <a class="text-blue-900" href="https://github.com/ThomasvanBockel">GitHub</a>.
+                    <a class="text-blue-800" href="https://github.com/ThomasvanBockel">GitHub</a>.
                     Daarnaast bedenk ik graag ideeën voor websites en andere digitale projecten. Afhankelijk van de wens
                     kan ik zowel formele als speelsere websites maken.</p>
-                <p class=" lg:text-xl text-4xl">Ik werk graag aan zowel front-end als back-end projecten en vind beide
+                <p class=" lg:text-xl text-4xl pb-5">Ik werk graag aan zowel front-end als back-end projecten en vind
+                    beide
                     even leuk. Daarnaast heb ik de ambitie om mezelf verder te ontwikkelen tot een volwaardige
                     full-stack developer.</p>
                 <p class=" lg:text-xl text-4xl">Naast programmeren heb ik ook andere hobby's, zoals gamen, tekenen en
@@ -49,17 +56,19 @@
 
         </div>
     </section>
-    <section id="skills" class="my-10 ">
-        <h2 class="lg:text-2xl text-center my-5 text-blue-900 text-6xl">Vaardigheden</h2>
-        <div class=" flex flex-col items-center gap-5">
-            <div class=" shadow-xl  lg:rounded-md p-2">
+    <section id="skills" class="my-10  p-4">
+        <h2 class=" font-handwriting lg:text-2xl text-center my-5 text-blue-900 text-6xl">Vaardigheden</h2>
+        <div class=" flex flex-col items-center gap-5 ">
+            <div class=" shadow-xl  lg:rounded-md  p-6">
                 <h3 class="lg:text-xl  text-4xl font-bold">Frontend </h3>
-                <p class="lg:text-xl text-4xl">CSS: ik heb bij meerdere projecten met CSS gewerkt, waardoor ik al veel
-                    kan maken met gewone CSS en snel nieuwe componenten kan oppikken.</p>
-                <p class="lg:text-xl text-4xl">Tailwind: Voor meerdere projecten heb ik gebruik gemaakt van tailwind,
-                    hierdoor
-                    kan ik goed tailwind
-                    gebruiken in projecten en makkelijk extra vaardigheden leren</p>
+                <p class="lg:text-xl text-4xl pb-5">Voor front-end heb ik ervaring met meerdere talen. Ik heb voor
+                    projecten
+                    gebruik gemaakt van HTML, normale CSS en JavaScript. Ik vind front-end leuk om aan te werken omdat
+                    ik projecten levend kan zien worden voor mijn ogen.</p>
+                <p class="lg:text-xl text-4xl pb-5">Frameworks: Voor front-end heb ik meerdere frameworks gebruikt.
+                    Hierbij
+                    heb ik het meeste ervaring met Tailwind. Ik heb ook ervaring met Bulma, maar daar heb ik minder mee
+                    gewerkt. Ik vind Tailwind het fijnst omdat ik daar meer vrijheid mee heb. </p>
                 <div class="flex flex-row self-start gap-10">
                     <div class="justify-items-center shadow-xl">
                         <p>CSS</p>
@@ -79,11 +88,15 @@
                     </div>
                 </div>
             </div>
-            <div class=" shadow-xl lg:rounded-md p-2 w-full">
+            <div class=" shadow-xl lg:rounded-md p-6 w-full">
                 <h3 class="text-4xl lg:text-xl font-bold">Backend</h3>
-                <p class=" text-4xl lg:text-xl">PHP: voor backend kan ik goed werken met PHP hier heb ik meerdere
-                    projecten mee gewerkt. </p>
-                <p class=" text-4xl lg:text-xl">Databases: ik heb met meerdere projecten gewerkt met mySQl </p>
+                <p class=" text-4xl lg:text-xl pb-5">Voor back-end heb ik ervaring met PHP, Ik vind PHP handig omdat ik
+                    geen
+                    apart bestand hoef aan te maken voor mijn HTML en database connectie, waardoor het makkelijk wordt
+                    om een responsieve website te maken </p>
+                <p class=" text-4xl lg:text-xl pb-5">Voor databases heb ik erving met mySQl en MongoDB. Hierin heb ik
+                    geen
+                    voorkeur, ik gebruik de database wat het handigst en het makkelijkst is voor de project.</p>
                 <div class="flex flex-row self-start gap-10">
                     <div class="justify-items-center shadow-xl">
                         <p>PHP</p>
@@ -96,7 +109,7 @@
 
                 </div>
             </div>
-            <div class=" shadow-xl   lg:rounded-md p-2 w-full">
+            <div class=" shadow-xl   lg:rounded-md p-6 w-full">
                 <h3 class=" text-4xl lg:text-xl font-bold">Frameworks: </h3>
                 <p class=" text-4xl lg:text-xl">Voor frameworks heb ik Laravel, React.js en express.js gebruikt om
                     webapplicatie's te
@@ -116,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="shadow-xl lg: rounded-md p-2 ">
+            <div class="shadow-xl lg: rounded-md p-6 ">
                 <h3 class="  text-4xl lg:text-xl font-bold">Ontwerpen: </h3>
                 <p class=" text-4xl lg:text-xl">Ik heb meerdere ontwerpen gemaakt voor website's en applicaties, hierbij
                     kan ik
@@ -133,7 +146,8 @@
         </div>
     </section>
     <section id="projects" class="my-10">
-        <h2 class=" text-center my-5 text-blue-900 text-6xl justify-self-center lg:text-2xl">Projecten</h2>
+        <h2 class="font-handwriting text-center my-5 text-blue-900 text-6xl justify-self-center lg:text-2xl">
+            Projecten</h2>
         <div class="lg:grid grid-flow-row grid-cols-3 gap-2 flex flex-col">
 
             <div class=" border-2 border-black lg:rounded-md p-2   mt-5  flex flex-col">

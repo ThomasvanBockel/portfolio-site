@@ -1,13 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-        "./index.html",
-        "./details.php",
-        "./src/**/*.{html,js,php}",
-        "./**/*.php"
-    ],
+    content: ["./*.html", "./src/**/*.{html,js}"],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                handwriting: ['Caveat', 'cursive'],
+            }
+        },
     },
     plugins: [],
 }
